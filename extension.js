@@ -104,8 +104,8 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            nsfw: "https://rawgit.com/GravelCraft/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            op: "https://rawgit.com/GravelCraft/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/GravelCraft/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/GravelCraft/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
