@@ -53,13 +53,13 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "[Bot]Garfield",
+        botName: "BasicBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
-        maximumAfk: 120,
+        maximumAfk: 60,
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
@@ -75,12 +75,12 @@
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        lockskipPosition: 3,
+        lockskipPosition: 1,
         lockskipReasons: [
             ["theme", "This song does not fit the room theme. "],
-            ["op", "This song is on the OP list. "],
+            ["op", "This song is on the OP list. Please pick a different song. "],
             ["history", "This song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
+            ["mix", "You played a mix, which is against the rules.  "],
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "]
@@ -89,7 +89,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "GravelCraft.nl",
+        motd: "Join our minecraft server! IP: Gravelcraft.nl",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
@@ -99,7 +99,7 @@
         fbLink: null,
         youtubeLink: null,
         website: "http://www.GravelCraft.nl",
-        intervalMessages: ["Join GravelCraft.nl!"],
+        intervalMessages: ["Join our minecraft server! IP: GravelCraft.nl "],
         messageInterval: 5,
         songstats: true,
         commandLiteral: "!",
