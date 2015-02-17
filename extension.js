@@ -89,7 +89,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "GravelCraft.nl",
+        motd: "Welcome to Smash The House! Be nice and enjoy the music!",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
@@ -99,13 +99,13 @@
         fbLink: null,
         youtubeLink: null,
         website: "http://www.GravelCraft.nl",
-        intervalMessages: ["Join GravelCraft.nl!"],
+        intervalMessages: ["Join our minecraft server! The IP is GravelCraft.nl!"],
         messageInterval: 5,
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/GravelCraft/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/GravelCraft/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            nsfw: "https://rawgit.com/GravelCraft/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            op: "https://rawgit.com/GravelCraft/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
