@@ -105,7 +105,8 @@
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/GravelCraft/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/GravelCraft/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            OP: "https://rawgit.com/GravelCraft/basicBot-customization/master/blacklists/ExampleOPlist.json",
+            overplayed: "https://rawgit.com/xMaxist/basicBot-customization/master/blacklists/OP"
         }
     }));
 
