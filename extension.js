@@ -31,14 +31,14 @@
          */
 
         bot.commands.baconCommand = {
-            command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
+            command: 'pizza',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
             functionality: function (chat, cmd) {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me Bacon!!!");
+                    API.sendChat("/me ey b0ss, can i habe pizza pls?");
                 }
             }
         };
@@ -51,7 +51,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "[Bot]Garfield",
+        botName: "b0ss",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
@@ -87,7 +87,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Welcome to Smash The House! Be nice and enjoy the music!",
+        motd: "ey b0ss, welcum",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
@@ -95,9 +95,9 @@
         rulesLink: null,
         themeLink: null,
         fbLink: null,
-        youtubeLink: null,
-        website: "http://www.GravelCraft.nl",
-        intervalMessages: ["Join our minecraft server! The IP is GravelCraft.nl!"],
+        youtubeLink: 'youtube.com/maxist3',
+        website: null,
+        intervalMessages: ["ey b0ss, i habe cancer"],
         messageInterval: 5,
         songstats: true,
         commandLiteral: "!",
