@@ -99,7 +99,7 @@
         website: null,
         intervalMessages: ["ey b0ss, i habe cancer"],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/GravelCraft/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
