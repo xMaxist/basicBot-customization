@@ -53,7 +53,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "b0ss",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://raw.githubusercontent.com/xMaxist/basicBot/master/lang/en_mod.json",
         startupCap: 75, // 1-200
         startupVolume: 100, // 0-100
         startupEmoji: true, // true or false
