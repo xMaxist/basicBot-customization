@@ -31,14 +31,14 @@
          */
 
         bot.commands.baconCommand = {
-            command: 'pizza',  //The command to be called. With the standard command literal this would be: !bacon
+            command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
             functionality: function (chat, cmd) {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me ey b0ss, can i habe pizza pls?");
+                    API.sendChat("/me Bacon!!!");
                 }
             }
         };
@@ -51,7 +51,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "b0ss",
+        botName: "[Bot]Garfield",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
@@ -87,7 +87,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "ey b0ss, welcum",
+        motd: "Welcome to Smash The House! Be nice and enjoy the music!",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
@@ -95,9 +95,9 @@
         rulesLink: null,
         themeLink: null,
         fbLink: null,
-        youtubeLink: 'youtube.com/maxist3',
-        website: null,
-        intervalMessages: ["ey b0ss, i habe cancer"],
+        youtubeLink: null,
+        website: "http://www.GravelCraft.nl",
+        intervalMessages: ["Join our minecraft server! The IP is GravelCraft.nl!"],
         messageInterval: 5,
         songstats: true,
         commandLiteral: "!",
@@ -109,6 +109,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/xMaxist/basicBot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
 
 }).call(this);
