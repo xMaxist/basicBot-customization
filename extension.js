@@ -54,8 +54,8 @@
         botName: "b0ss",
         language: "english",
         chatLink: "https://raw.githubusercontent.com/xMaxist/basicBot/master/lang/en_mod.json",
-        startupCap: 75, // 1-200
-        startupVolume: 100, // 0-100
+        startupCap: 0, // 1-200
+        startupVolume: 0, // 0-100
         startupEmoji: true, // true or false
         maximumAfk: 120,
         afkRemoval: true,
@@ -97,7 +97,7 @@
         fbLink: null,
         youtubeLink: "youtube.com/maxist3",
         website: null,
-        intervalMessages: ["ey b0ss, i habe cancer"],
+        intervalMessages: ["i am de b0ss"],
         messageInterval: 5,
         songstats: false,
         commandLiteral: "!",
